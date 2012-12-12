@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="48dp"
+	    android:layout_marginTop="36dp"
+	    android:text="@string/choose"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textSize="30sp" />
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="19dp"
+	    android:text="@string/Return"
+	    android:textSize="30sp" />
+
+	<Spinner
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/spinner2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/spinner1"
+	    android:layout_marginTop="25dp" />
+
+	<Spinner
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/spinner1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/textView1"
+	    android:layout_marginTop="35dp" />
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/textView1"
+	    android:layout_below="@+id/spinner2"
+	    android:layout_marginLeft="24dp"
+	    android:layout_marginTop="22dp"
+	    android:text="TextView" />
+	
+</RelativeLayout>

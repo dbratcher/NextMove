@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">NextMove</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_image_capture">ImageCapture</string>
+    <string name="take_picture">Capture</string>
+    <string name="view_picture">Analyze</string>
+    <string name="adjust_board">Adjust Board</string>
+    <string name="get_move">Get Move!</string>
+    <string name="home">Home</string>
+    <string name="exit">Exit</string>
+    <string-array name="piece_names">
+        <item >No Piece</item>
+        <item >Knight</item>
+        <item >Rook</item>
+        <item >Bishop</item>
+        <item >Pawn</item>
+        <item >Queen</item>
+        <item >King</item>
+    </string-array>
+    <string-array name="colors">
+        <item >White</item>
+        <item >Black</item>
+    </string-array>
+        <string name="Return">Return</string>
+        <string name="choose">Choose a Piece</string>
+        <string name="waiting">Calculating</string>
+
+</resources>
